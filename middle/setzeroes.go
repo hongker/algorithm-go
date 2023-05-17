@@ -20,6 +20,7 @@ func setZeroes(matrix [][]int) {
 
 	}
 
+	// 给每列置零
 	for j := range cols {
 		for k := 0; k < len(matrix); k++ {
 			matrix[k][j] = 0
