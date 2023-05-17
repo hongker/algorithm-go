@@ -1,7 +1,8 @@
-package threesum
+package middle
 
 import "sort"
 
+// threeSum 三数之和
 func threeSum(nums []int) [][]int {
 	items := make([][]int, 0, 64)
 	n := len(nums)

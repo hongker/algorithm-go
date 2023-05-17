@@ -1,4 +1,4 @@
-package threesum
+package middle
 
 import (
 	"reflect"
